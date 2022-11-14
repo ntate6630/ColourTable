@@ -1,5 +1,5 @@
-/* ASCII Escape code text colour table */<
-
+/* ASCII Escape code text and background colour table */<
+<
 #include <stdio.h><
 <
 main()<
@@ -19,10 +19,10 @@ main()<
           }<
           printf("\n");
      }<
-     printf("\x1b[0m");               /* Reset */<
-     printf("\n");<I
+     printf("\x1b[0m");               /* Reset */<I
+     printf("\n");<
 <
-     printf("\n  256 Extended Background colours\n\n");<
+     printf("\n  256 Extended background colours\n\n");<
 <
      for(i = 0; i <= 15; i++)<
      {<
