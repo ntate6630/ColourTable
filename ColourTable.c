@@ -32,7 +32,7 @@ main()
                printf("\x1b[48;5;%dm", colour[0]);
                printf("%5d", i * 16 + j);
           }
-          printf("\x1b\[0m");
+          printf("\x1b[0m");
           printf("\n");
      }
      printf("\x1b[0m");               /* Reset */
